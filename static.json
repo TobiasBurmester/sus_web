@@ -8,6 +8,5 @@
         "Cache-Control": "max-age=31536000"
     },
     "canonical_host": "www.sus-finance.herokuapp.com",
-    "clean_urls": true,
-    "https_only": true
+    "clean_urls": true
 }
