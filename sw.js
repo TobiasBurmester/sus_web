@@ -6,4 +6,6 @@ self.addEventListener("install", e =>{
     )
     console.log("Install dcode!");
 });
-
+self.addEventListener("fetch", e => {
+    console.log('Intercepting fetch request for: $(e.request.url)');
+});
