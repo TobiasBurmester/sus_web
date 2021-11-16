@@ -29,6 +29,7 @@ body{
     width: 16%;
     padding-top: 16%;
     background: radial-gradient(50% 50% at 50% 50%, #121212 0%, #121212 58.33%, #121212 100%);
+    border-radius: 50%;
 }
 
 #ellipse1{
