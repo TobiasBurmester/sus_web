@@ -24,11 +24,11 @@ body{
 
 #ellipse2{
     position: relative;
-    margin:auto;
-    width: 90%;
-    height: 90%;
-
-background: #222222;
+    left: 10%;
+    top: 10%;
+    width: 80%;
+    height: 80%;
+    background: #222222;
 }
 
 #ellipse1{
