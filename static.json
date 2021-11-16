@@ -7,6 +7,6 @@
     "headers": {
         "Cache-Control": "max-age=31536000"
     },
-    "clean_urls": true,
-    "https_only": true
-}
+    "https_only": true,
+    "clean_urls": true
+  }
