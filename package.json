@@ -1,5 +1,7 @@
 {
     "name": "sus",
     "version": "0.0.1",
-    "start": "index.html"
+    "scripts": {
+        "start": "index.js"
+    }
 }
