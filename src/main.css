@@ -32,12 +32,13 @@ background: #222222;
 }
 
 #ellipse1{
+    background-color: #ffffff;
     position: absolute;
     left: 70%;
     top: 30%;
     width: 20%;
     padding-top: 20%;
-    background: radial-gradient(50% 50% at 50% 50%, #FF0022 0%, #FF00DD 58.33%, #121212 100%);
+    /*background: radial-gradient(50% 50% at 50% 50%, #FF0022 0%, #FF00DD 58.33%, #121212 100%);*/
 }
 
 @media (prefers-color-scheme: light){
