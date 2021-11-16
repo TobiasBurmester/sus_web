@@ -24,10 +24,10 @@ body{
 
 #ellipse2{
     position: absolute;
-    left: 72%;
-    top: 32%;
-    width: 16%;
-    padding-top: 16%;
+    left: 10%;
+    top: 10%;
+    width: 80%;
+    padding-top: 80%;
     background: #222222;
     border-radius: 50%;
 }
