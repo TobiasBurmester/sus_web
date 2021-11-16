@@ -1,4 +1,5 @@
 {
     "name": "sus",
-    "version": "0.0.1"
+    "version": "0.0.1",
+    "start": "index.html"
 }
