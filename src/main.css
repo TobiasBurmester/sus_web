@@ -6,7 +6,7 @@ body{
 .bg-glass{
     
     background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
-    backdrop-filter: blur(75px);
+    backdrop-filter: blur(30%);
 }
 
 
@@ -37,7 +37,7 @@ background: #222222;
     top: 30%;
     width: 20%;
     padding-top: 20%;
-    background: radial-gradient(50% 50% at 50% 50%, #FF0022 0%, #FF00DD 58.33%, #121212 100%);*/
+    background: radial-gradient(50% 50% at 50% 50%, #FF0022 0%, #FF00DD 58.33%, #121212 100%);
 }
 
 @media (prefers-color-scheme: light){
@@ -47,7 +47,7 @@ background: #222222;
     }
     .bg-glass{
         background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.5) 100%);
-        backdrop-filter: blur(75px);
+        backdrop-filter: blur(30%);
 /* Note: backdrop-filter has minimal browser support */
         border-radius: 10%;
     }
