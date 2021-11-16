@@ -23,9 +23,10 @@ body{
 
 
 #ellipse2{
-margin:auto;
-width: 90%;
-height: 90%;
+    position: relative;
+    margin:auto;
+    width: 90%;
+    height: 90%;
 
 background: #222222;
 }
