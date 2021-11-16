@@ -27,7 +27,7 @@ body{
     left: 10%;
     top: 10%;
     width: 80%;
-    height: 80%;
+    padding-top: 80%;
     background: #222222;
 }
 
