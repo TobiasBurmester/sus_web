@@ -41,12 +41,12 @@ body{
 @media screen and (orientation: landscape) {
     .bg-glass{
         position: relative;
-        left: 60%;
-        top: 10%;
-        width: 30%;
-        height: 80%;
+        left: 50%;
+        top: 5%;
+        width: 45%;
+        height: 90%;
 /* Note: backdrop-filter has minimal browser support */
-        border-radius: 10%;
+        border-radius: 5%;
     }
     
 }
