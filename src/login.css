@@ -1,6 +1,24 @@
-body{
-    background-color: #121212;
+@media screen and (orientation: portrait) {
+    
 }
+
+
+@media screen and (orientation: landscape) {
+    #bg-glass{
+        position: relative;
+        left: 60%;
+        top: 10%;
+        width: 30%;
+        height: 80%;
+        background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+        backdrop-filter: blur(75px);
+/* Note: backdrop-filter has minimal browser support */
+        border-radius: 10%;
+    }
+}
+
+
+
 
 
 
