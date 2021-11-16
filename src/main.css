@@ -28,7 +28,7 @@ body{
     top: 32%;
     width: 16%;
     padding-top: 16%;
-    background-color: #222222;
+    background: radial-gradient(50% 50% at 50% 50%, #121212 0%, #121212 58.33%, #121212 100%);
 }
 
 #ellipse1{
