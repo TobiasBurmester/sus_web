@@ -19,6 +19,15 @@ body{
 }
 
 
+ellipse{
+    background-color: #ffffff;
+    position: absolute;
+    left: 70%;
+    top: 30%;
+    width: 20%;
+    height: 20%;
+}
+
 @media (prefers-color-scheme: light){
     body{
         background-color: #ffffff;
