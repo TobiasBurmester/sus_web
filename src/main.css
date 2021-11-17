@@ -54,6 +54,13 @@ body{
     .background{
         background-image: url("/images/background_vertical.PNG");
     }
+    .content{
+        margin:0px;
+        padding: 50px;
+        background-color: transparent;
+        width: 100%;
+        height: 100%;
+    }
 }
 
 
