@@ -155,3 +155,39 @@
     }
   }
   
+
+  @media screen and (orientation:portrait){
+    input,
+    span,
+    label,
+    textarea {
+      font-size: 2.2vw;
+    }
+
+    input.question + label > span,
+    textarea.question + label > span {
+      font-size:4vw;
+    }
+    input.question:focus + label > span{
+      font-size: 2.2vw;
+    }
+    
+    input.question:valid + label > span {
+      font-size: 2.2vw;
+    }
+    
+    textarea.question:focus + label > span{
+      font-size: 2.2vw;
+    }
+  
+  
+    textarea.question:valid + label > span {
+      font-size: 2.2vw;
+    }
+
+    input.question,
+    textarea.question {
+    font-size: 4vw;
+    }
+
+  }
