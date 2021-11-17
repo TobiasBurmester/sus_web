@@ -18,6 +18,7 @@ body{
     border-radius: 20px;
     min-height: 50vw;
     min-height: 30vw;
+    overflow: hidden;
 }
 
 
