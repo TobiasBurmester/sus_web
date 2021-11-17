@@ -21,11 +21,8 @@ body{
 
 #ellipse3{
     position: absolute;
-    left: 70%;
-    top: 30%;
-    width: 20%;
-    padding-top: 20%;
     background: radial-gradient(50% 50% at 50% 50%, #00EEEE 0%, #006666 75%, #121212 100%);
+    border-radius: 50%;
 }
 
 #ellipse2{
@@ -41,6 +38,7 @@ body{
 #ellipse1{
     position: absolute;
     background: radial-gradient(50% 50% at 50% 50%, #FF0022 0%, #FF00DD 58.33%, #121212 100%);
+    border-radius: 50%;
 }
 
 @media (prefers-color-scheme: light){
