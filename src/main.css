@@ -32,26 +32,9 @@ body{
     height: 100%;
 }
 
-#ellipse3{
-    position: absolute;
-    background: radial-gradient(50% 50% at 50% 50%, #00EEEE 0%, #006666 75%, #121212 100%);
-    border-radius: 50%;
-}
-
-#ellipse2{
-    position: absolute;
-    left: 10%;
-    top: 10%;
-    width: 80%;
-    padding-top: 80%;
-    background: #222222;
-    border-radius: 50%;
-}
-
-#ellipse1{
-    position: absolute;
-    background: radial-gradient(50% 50% at 50% 50%, #FF0022 0%, #FF00DD 58.33%, #121212 100%);
-    border-radius: 50%;
+.content{
+    margin:0px;
+    padding: 50px;
 }
 
 @media (prefers-color-scheme: light){
