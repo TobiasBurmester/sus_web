@@ -65,7 +65,8 @@ body{
 
 @media screen and (orientation: portrait) {
     .background{
-        transform: rotate(90deg);
+        transform: rotate(90deg) translateY(-100%);
+        transform-origin: top right;
     }
 }
 
