@@ -1,9 +1,13 @@
-body{
-    background-color: #121212;
+html, body{
     overflow: hidden;
     margin: 0;
     height: 100%;
     width: 100%;
+}
+
+body{
+    background-color: #121212;
+    position: relative;
 }
 
 
