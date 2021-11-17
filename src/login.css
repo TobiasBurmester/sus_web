@@ -9,8 +9,8 @@
         position: relative;
         left: 50vw;
         top: 5vh;
-        width: 45%;
-        height: 90%;
+        width: 45vw;
+        height: 90vh;
     }
     
 }
@@ -20,8 +20,8 @@
         position: relative;
         left: 5vw;
         top: 5vh;
-        width: 90%;
-        height: 90%;
+        width: 90vw;
+        height: 90vh;
     }
     
 }
