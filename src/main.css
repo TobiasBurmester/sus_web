@@ -21,6 +21,7 @@ body{
 
 
 .background{
+    background-image: url("images/background.png");
     position: relative;
     left: 0%;
     top: 0%;
