@@ -35,6 +35,7 @@ body{
 .content{
     margin:0px;
     padding: 50px;
+    background-color: transparent;
 }
 
 @media (prefers-color-scheme: light){
