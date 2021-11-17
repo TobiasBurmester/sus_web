@@ -22,7 +22,7 @@ body{
 
 .background{
     background-image: url("/images/background.PNG");
-    background-size: 100vw 100vh;
+    background-size: 100% auto;
     position: relative;
     left: 0%;
     top: 0%;
