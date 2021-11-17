@@ -3,3 +3,25 @@
     align-items: center;
     text-align:center;
 }
+
+@media screen and (orientation: landscape) {
+    .bg-glass{
+        position: relative;
+        left: 50vw;
+        top: 2vw;
+        width: 45%;
+        height: 90%;
+    }
+    
+}
+
+@media screen and (orientation: portrait) {
+    .bg-glass{
+        position: relative;
+        left: 2vw;
+        top: 2vw;
+        width: 90%;
+        height: 90%;
+    }
+    
+}
