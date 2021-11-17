@@ -54,7 +54,7 @@ body{
 @media screen and (orientation: portrait) {
     .background{
         background-image: url("/images/background_vertical.PNG");
-        height: 90%;
+        height: 100s%;
         width: 100%;
     }
     .content{
