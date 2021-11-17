@@ -18,7 +18,7 @@ body{
     border-radius: 5%;
     min-height: 50vw;
     min-height: 30vw;
-    margin: 10%;
+    outline-offset: 20px;
 }
 
 
