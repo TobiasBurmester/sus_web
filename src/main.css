@@ -12,6 +12,7 @@ body{
 
 
 .bg-glass{
+    position: relative;
     background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
@@ -53,6 +54,8 @@ body{
 @media screen and (orientation: portrait) {
     .background{
         background-image: url("/images/background_vertical.PNG");
+        height: 90%;
+        width: 100%;
     }
     .content{
         margin:0px;

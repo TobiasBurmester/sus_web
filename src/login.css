@@ -18,10 +18,10 @@
 @media screen and (orientation: portrait) {
     .bg-glass{
         position: relative;
-        left: 5vw;
-        top: 5vh;
-        width: 90vw;
-        height: 80vh;
+        left: 5%;
+        top: 5%;
+        width: 90%;
+        height: 90%;
     }
     
 }
