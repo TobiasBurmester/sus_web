@@ -38,7 +38,7 @@
     padding: 0;
     margin: 0;
     width: 10%;
-    border-top: 1px solid red;
+    border-top: 1px solid #f0e;
     -webkit-transition: width 0.4s ease;
     transition: width 0.4s ease;
     height: 0px;
@@ -75,7 +75,7 @@
   
   input.question:valid + label,
   textarea.question:valid + label {
-    border-color: green;
+    border-color: #00d7d7;
   }
   
   input.question:invalid,
