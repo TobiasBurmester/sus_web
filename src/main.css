@@ -57,13 +57,3 @@ body{
 }
 
 
-@media screen and (orientation: landscape) {
-    .bg-glass{
-        position: relative;
-        left: 50vw;
-        top: 2vw;
-        width: 45%;
-        height: 90%;
-    }
-    
-}
