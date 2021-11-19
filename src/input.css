@@ -165,7 +165,7 @@
     textarea.question:focus + label > span,
     textarea.question:valid + label > span {
       font-size: 3.3vh;
-      top: -20vh;
+      top: -10vh;
     }
     
 
