@@ -15,10 +15,9 @@ $(window).resize(function()
 
    var viewportHeight = $(window).height();
 
-    if (deviceType != "desktop"){
         document.body.width = viewportWidth;
         document.body.height =viewportHeight;
-    }
+
    //do your layout change here.
 
 });
