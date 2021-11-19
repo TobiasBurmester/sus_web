@@ -7,16 +7,13 @@
 @media screen and (orientation: landscape) {
     .bg-glass{
         position: relative;
-        margin-top: 5vh;
-        margin-bottom: 5vh;
-        margin-right: 5vh;
+        margin:10px;
         left: 50vw;
-        margin-left: 5vh;
         top:0;
         right:0;
         bottom:0;
-        width: calc(100% - 50vw - 10vh - 40px);
-        height: calc(100% - 10vh - 40px);
+        width: calc(100% - 50vw - 20px - 40px);
+        height: calc(100% - 10vh - 20px - 40px);
     }
     
 }
