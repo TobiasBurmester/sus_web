@@ -11,9 +11,9 @@ if ("serviceWorker" in navigator){
 window.addEventListener('resize', r =>{
 
 
-   var viewportWidth = $(window).width();
+   var viewportWidth = $(screen).width();
 
-   var viewportHeight = $(window).height();
+   var viewportHeight = $(screen).height();
 
         document.body.width = viewportWidth;
         document.body.height =viewportHeight;
