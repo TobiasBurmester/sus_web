@@ -9,15 +9,7 @@
     border: none;
     font-size: 2.2vh;
   }
-  
 
-  
-  label{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
   textarea:focus,
   input:focus {
     outline: 0;
@@ -68,26 +60,26 @@
   }
   
   input.question:focus + label > span{
-    top: -100px;
+    top: -10vh;
     font-size: 2.2vh;
     color: #f0e;
   }
   
   input.question:valid + label > span {
-    top: -100px;
+    top: -10vh;
     font-size: 2.2vh;
     color: #00d7d7;
   }
   
   textarea.question:focus + label > span{
-    top: -150px;
+    top: -15vh;
     font-size: 2.2vh;
     color: #f0e;
   }
 
 
   textarea.question:valid + label > span {
-    top: -150px;
+    top: -15vh;
     font-size: 2.2vh;
     color: #00d7d7;
   }
