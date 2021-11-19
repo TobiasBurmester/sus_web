@@ -8,8 +8,8 @@ if ("serviceWorker" in navigator){
     });
 } 
 
-$(window).resize(function() 
-{
+window.addEventListener('resize', r =>{
+
 
    var viewportWidth = $(window).width();
 
