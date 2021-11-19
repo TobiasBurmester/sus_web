@@ -17,9 +17,10 @@
         margin-bottom: 5vh;
         margin-right: 5vh;
         margin-left: 50vw;
-        size: fill;
-        float: left;
-        height: 100%;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
     }
     
 }
@@ -37,8 +38,10 @@
         margin-bottom: 5vw;
         margin-right: 5vw;
         margin-left: 5vw;
-        size: fill;
-        height: 100%;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
     }
     
 }
