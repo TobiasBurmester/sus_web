@@ -16,12 +16,13 @@
         margin-top: 5vh;
         margin-bottom: 5vh;
         margin-right: 5vh;
-        margin-left: 50vw;
+        left: 50vw;
+        margin-left: 5vh;
         top:0;
         left:0;
         right:0;
         bottom:0;
-        height: 90vh;
+        height: 80vh;
     }
     
 }
