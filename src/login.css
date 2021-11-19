@@ -19,10 +19,9 @@
         left: 50vw;
         margin-left: 5vh;
         top:0;
-        left:0;
         right:0;
         bottom:0;
-        height: 80vh;
+        height: calc(100vh - 10vh - 2%);
     }
     
 }
