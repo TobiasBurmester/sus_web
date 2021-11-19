@@ -9,14 +9,12 @@ if ("serviceWorker" in navigator){
 } 
 
 window.addEventListener('resize', r =>{
+    
 
+        var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+        var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+        $("html, body").css({"width":w,"height":h});
 
-   var viewportWidth = $(screen).width();
-
-   var viewportHeight = $(screen).height();
-
-        document.body.width = viewportWidth;
-        document.body.height =viewportHeight;
 
    //do your layout change here.
 
