@@ -5,12 +5,6 @@
 }
 
 @media screen and (orientation: landscape) {
-    #orientate-right{
-        position: relative;
-        width: 50%;
-        height: 100%;
-        float: left;
-    }
     .bg-glass{
         position: relative;
         margin-top: 5vh;
@@ -21,18 +15,11 @@
         top:0;
         right:0;
         bottom:0;
-        height: calc(100vh - 10vh - 2%);
     }
     
 }
 
 @media screen and (orientation: portrait) {
-    #orientate-right{
-        display: inline-block;
-        position: relative;
-        width: 0%;
-        height: 100%;
-    }
     .bg-glass{
         position: relative;
         margin-top: 5vw;
