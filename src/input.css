@@ -89,6 +89,7 @@
   input.question:valid + label,
   textarea.question:valid + label {
     border-color: #00d7d7;
+    top: 0px;
   }
   
   input.question:invalid,
