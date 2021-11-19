@@ -161,33 +161,33 @@
     span,
     label,
     textarea {
-      font-size: 4.4vh;
+      font-size: 3.3vh;
     }
 
     input.question + label > span,
     textarea.question + label > span {
-      font-size:8vh;
+      font-size:6vh;
     }
     input.question:focus + label > span{
-      font-size: 4.4vh;
+      font-size: 3.3vh;
     }
     
     input.question:valid + label > span {
-      font-size: 4.4vh;
+      font-size: 3.3vh;
     }
     
     textarea.question:focus + label > span{
-      font-size: 4.4vh;
+      font-size: 3.3vh;
     }
   
   
     textarea.question:valid + label > span {
-      font-size: 4.4vh;
+      font-size: 3.3vh;
     }
 
     input.question,
     textarea.question {
-    font-size: 8vh;
+    font-size: 6vh;
     }
 
   }
