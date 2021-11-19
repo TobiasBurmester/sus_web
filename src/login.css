@@ -35,6 +35,8 @@
         bottom: 5vw;
         right: 5vw;
         left: 5vw;
+        width: auto;
+        height: auto;
     }
     
 }
