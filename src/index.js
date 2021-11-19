@@ -8,8 +8,28 @@ if ("serviceWorker" in navigator){
     });
 } 
 
-$(function() {
-    var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-    var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-    $("html, body").css({"width":w,"height":h});
+$(window).resize(function() 
+{
+
+   var viewportWidth = $(window).width();
+
+   var viewportHeight = $(window).height();
+
+    if (deviceType != "desktop"){
+        document.body.width = viewportWidth;
+        document.body.height =viewportHeight;
+    }
+   //do your layout change here.
+
 });
+
+const deviceType = () => {
+    const ua = navigator.userAgent;
+    if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
+        return "tablet";
+    }
+    else if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(ua)) {
+        return "mobile";
+    }
+    return "desktop";
+};
