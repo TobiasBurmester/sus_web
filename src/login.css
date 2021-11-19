@@ -6,7 +6,7 @@
 
 @media screen and (orientation: landscape) {
     .bg-glass{
-        position: relative;
+        position: absolute;
         left: 50%;
         top: 5%;
         width: 45%;
@@ -17,7 +17,7 @@
 
 @media screen and (orientation: portrait) {
     .bg-glass{
-        position: relative;
+        position: absolute;
         left: 5%;
         top: 5%;
         width: 90%;
