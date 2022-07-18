@@ -1,16 +1,3 @@
-if ("serviceWorker" in navigator){
-    navigator.serviceWorker.register("sw.js").then(registration =>{
-        console.log("SW Registered!");
-        console.log(registration);
-    }).catch (error => {
-        console.log("SW Registration Failed");
-        console.log(error);
-    });
-}
-
-
-
-
 const { Client } = require('pg');
 const client = new Client({
     connectionString: process.env.DATABASE_URL,
@@ -44,3 +31,15 @@ async function listUsers(req, res) {
         res.send("Error " + err);
     }
 }
+
+if ("serviceWorker" in navigator){
+    navigator.serviceWorker.register("sw.js").then(registration =>{
+        console.log("SW Registered!");
+        console.log(registration);
+    }).catch (error => {
+        console.log("SW Registration Failed");
+        console.log(error);
+    });
+}
+
+
