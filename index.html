@@ -1,25 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="theme-color" content="#009578">
-        <title>SUS</title>
-        <link rel="stylesheet" href="src/main.css">
-        <link rel="manifest" href="manifest.json" crossOrigin="use-credentials" >
-        <link rel="apple-touch-icon"  href="/images/logo_256x256.png">
-        <link rel="shortcut icon" href="favicon.ico">
-        <link rel="canonical" href="https://sus-finance.herokuapp.com/"/>
-        <meta http-equiv="Refresh" content="0; url='login'" />
-        <meta name="viewport" content="height=device-height, initial-scale=1, minimum-scale=1, maximum-scale=1">
-    </head>
-    <body>
-        <div class = "background">
-            
-        </div>
-        <p>Hi my name is Dom</p>
-        <script src="src/index.js"></script>
-        <a href="login">Login</a>
-    </body>
-
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Users</h1>
+<ul><% users.map((user) => { %>
+    <li><%= user.name %> - <%= user.has_pw %> <%= user.user_schema %></li>
+    <% }); %></ul>
+</body>
 </html>
