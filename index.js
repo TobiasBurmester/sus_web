@@ -18,12 +18,12 @@ express()
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
 
 
-async function listUsers(req, res) {
+async function listUsers() {
     try {
         const db = await client.connect()
         const result = await db.query('SELECT * FROM users');
         const results = { users: (result) ? result.rows : null};
-        res.render('index', results );
+        alert(results );
         db.release();
 
     } catch (err) {
