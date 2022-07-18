@@ -8,6 +8,19 @@
 </head>
 <body>
 <h1>Users</h1>
-<a href="javascript:ListUsers()">User</a>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Hash-password</th>
+        <th>User-Schema</th>
+    </tr>
+
+<?php
+    $result = listUsers();
+    if (%result->num_rows>0){
+    while ($row = $result -> fetch_assoc()){
+echo "<tr><td>". $row["name"]." </td><td>".$row["hash_pw"]."</td><td>".$row["user_schema"]."</td></tr>";}}
+?>
+</table>
 </body>
 </html>
