@@ -1,19 +1,7 @@
 <?php
         $db_connection = pg_connect(getenv(DATABASE_URL);
-
-
-
-//   $dbopts = parse_url(getenv('DATABASE_URL'));
- //     $app->register(new Csanquer\Silex\PdoServiceProvider\Provider\PDOServiceProvider('pdo'),
- //                  array(
-  //                  'pdo.server' => array(
-   //                    'driver'   => 'pgsql',
-    //                   'user' => $dbopts["user"],
-     //                  'password' => $dbopts["pass"],
-//                       'host' => $dbopts["host"],
-//                       'port' => $dbopts["port"],
-//                      'dbname' => ltrim($dbopts["path"],'/')
-//                       )
-//                   )
-//    );
+        if ($db_connection->connect_error) {
+           die("Connection failed: " . $db_connection->connect_error);
+        }
+          echo "Connected successfully";
 ?>
