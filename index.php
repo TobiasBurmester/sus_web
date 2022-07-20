@@ -9,7 +9,10 @@
     <h1>
         Test
     </h1>
-        <?php
+    <?php
+        echo "test";
+    ?>
+    <?php
             $result = pg_query($db_connection, "SELECT name FROM users");
             while($row = mysql_fetch_array($result)) {
                 echo $row['name'];
