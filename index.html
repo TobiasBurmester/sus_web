@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-    <?php include('src/db_con.php'?>
+    <?php include('src/db_con.php')?>
     <head>
         <meta charset="UTF-8">
         <title>Title</title>
     </head>
     <body>
         <?php
-            $conn = pg_pconnect("dbname=publisher");
-            if (!$conn) {
-              echo "Ein Fehler ist aufgetreten.\n";
-              exit;
-            }
+            $app->get('/db/', function() use($app) {
+                $st = $app['pdo']->prepare('SELECT name FROM users');
+                $st->execute();
 
-            $result = pg_query($conn, "SELECT author, email FROM authors");
-            if (!$result) {
-              echo "Ein Fehler ist aufgetreten.\n";
-              exit;
-            }
+                $names = array();
+                while ($row = $st->fetch(PDO::FETCH_ASSOC)) {
+                    $app['monolog']->addDebug('Row ' . $row['name']);
+                    $names[] = $row;
+                }
 
-            while ($row = pg_fetch_row($result)) {
-              echo "Autor: $row[0]  E-Mail: $row[1]";
-              echo "<br />\n";
-            }
+                while($row = mysql_fetch_array($names)) {
+                    echo $row['column_name']; // Print a single column data
+                    echo print_r($row);       // Print the entire row data
+                }
+            });
+
+        }
     </body>
 </html>
