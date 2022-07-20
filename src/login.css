@@ -1,0 +1,39 @@
+#login{
+    margin: auto;
+    width: 100%;
+    height: 70%;
+}
+
+@media screen and (orientation: landscape) {
+    .bg-glass{
+        position: relative;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        margin-right: 5vh;
+        left: 50vw;
+        margin-left: 5vh;
+        top:0;
+        right:0;
+        bottom:0;
+        width: calc(100% - 50vw - 10vh - 40px);
+        height: calc(100% - 10vh - 40px);
+    }
+    
+}
+
+@media screen and (orientation: portrait) {
+    .bg-glass{
+        position: relative;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        margin-right: 5vw;
+        margin-left: 5vw;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        width: calc(100% -  10vw - 40px);
+        height: calc(100% - 10vw - 40px);
+    }
+    
+}
