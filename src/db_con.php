@@ -1,6 +1,9 @@
 <?php
         $db_connection = pg_connect(getenv(DATABASE_URL);
         $result = pg_query($db_connection, "SELECT name FROM users");
+        while($row = mysql_fetch_array($result)) {
+            echo $row['name'];
+        }
 
 
 
